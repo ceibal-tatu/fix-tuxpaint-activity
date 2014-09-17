@@ -51,25 +51,7 @@ fi
 
 
 # Determine preferred savedir
-
-# First, check /usr/local/etc/
-x=`grep -m 1 "^savedir=" /usr/local/etc/tuxpaint/tuxpaint.conf`
-if test $? = 0 ; then
-  SAVEDIR=`echo $x | cut -d = -f 2-99`
-fi
-
-# First, check /etc/
-x=`grep -m 1 "^savedir=" /etc/tuxpaint/tuxpaint.conf`
-if test $? = 0 ; then
-  SAVEDIR=`echo $x | cut -d = -f 2-99`
-fi
-
-# First, check $HOME
-x=`grep -m 1 "^savedir=" $HOME/.tuxpaintrc`
-if test $? = 0 ; then
-  SAVEDIR=`echo $x | cut -d = -f 2-99`
-fi
-
+SAVEDIR=$HOME/.tuxpaint
 
 echo "Using save directory: $SAVEDIR/saved"
 
@@ -147,7 +129,7 @@ do
 
   if [ -e "$i" ]; then
     # Determine a filename for it:
-    NEWFILENAME=`date "+%Y%m%d%H%M%S"`
+    NEWFILENAME="tux_pic_tmp"
     echo "$i -> $SAVEDIR/saved/$NEWFILENAME.png"
 
     # Convert and scale down, save as a temp file:
