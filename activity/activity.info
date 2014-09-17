@@ -12,5 +12,5 @@ category  = Education; Art
 icon      = activity-icon
 exec      = sugar-activity -s activity.TuxPaintLauncher
 mime_types = image/bmp;image/gif;image/jpeg;image/png;image/tiff
-activity_version = 7
+activity_version = 8
 bundle_id = org.tuxpaint
