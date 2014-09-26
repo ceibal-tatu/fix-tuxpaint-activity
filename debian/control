@@ -1,0 +1,12 @@
+Source: fix-tuxpaint-activity
+Section: user
+Priority: optional
+Maintainer: Gustavo Duarte <gus.duarte@gmail.com>
+Build-Depends: debhelper (>= 9.0.0)
+Standards-Version: 3.9.5
+Vcs-Git: git://github.com/ceibal-tatu/fix-tuxpaint-activity.git
+Vcs-Browser: https://github.com/ceibal-tatu/fix-tuxpaint-activity/
+
+Package: fix-tuxpaint-activity
+Architecture: all
+Description: Hack que modifica el lanzador de la Actividad Tuxpaint instalado en el home del usuario ceibal .

@@ -1,0 +1,8 @@
+Package: fix-tuxpaint-activity
+Version: 0.1
+Architecture: all
+Maintainer: Gustavo Duarte <gus.duarte@gmail.com>
+Installed-Size: 60
+Section: user
+Priority: optional
+Description: Hack que modifica el lanzador de la Actividad Tuxpaint instalado en el home del usuario ceibal .
