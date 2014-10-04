@@ -24,7 +24,7 @@ case "$1" in
         if id ceibal >/dev/null 2>&1; then
             chown -R ceibal:ceibal /home/ceibal/Activities/Tuxpaint.activity/
         else
-            echo "El usuario ceibal no esta disponible." > 2>&1
+            echo "El usuario ceibal no esta disponible." 2>&1
         fi
     fi
     ;;
