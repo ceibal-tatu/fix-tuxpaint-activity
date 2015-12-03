@@ -1,3 +1,9 @@
+tuxpaint-activity (0.3ubuntu1) UNRELEASED; urgency=medium
+
+  * Adaptacion a Sugar 0.107 en  Ubuntu 14.04
+
+ -- Plan Ceibal <ceibal@plan.ceibal.edu.uy>  Thu, 03 Dec 2015 12:30:00 -0300
+
 fix-tuxpaint-activity (0.3) tatu; urgency=medium
 
   * Fixed postint. 

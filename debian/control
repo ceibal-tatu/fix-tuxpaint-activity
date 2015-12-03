@@ -1,12 +1,12 @@
-Source: fix-tuxpaint-activity
+Source: sugar-tuxpaint-activity
 Section: user
 Priority: optional
 Maintainer: Plan Ceibal <ceibal@plan.ceibal.edu.uy>
 Build-Depends: debhelper (>= 9.0.0)
 Standards-Version: 3.9.5
-Vcs-Git: git://github.com/ceibal-tatu/fix-tuxpaint-activity.git
-Vcs-Browser: https://github.com/ceibal-tatu/fix-tuxpaint-activity/
+Vcs-Git: git@bitbucket.org:ceibaldd/sugar-tuxpaint-activity.git
+Vcs-Browser: https://bitbucket.org/ceibaldd/sugar-tuxpaint-activity/src 
 
-Package: fix-tuxpaint-activity
+Package: sugar-tuxpaint-activity
 Architecture: all
-Description: Hack que modifica el lanzador de la Actividad Tuxpaint instalado en el home del usuario ceibal .
+Description: Actividad Tuxpaint customizada por Ceibal. 

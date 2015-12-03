@@ -4,3 +4,4 @@ debian/fix-tuxpaint-activity
 debian/fix-tuxpaint-activity/**/*
 debian/debian/fix-tuxpaint-activity.substvars
 debian/fix-tuxpaint-activity.debhelper.log
+dist
